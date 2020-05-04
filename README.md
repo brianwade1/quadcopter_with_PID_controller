@@ -1,10 +1,10 @@
-![Quadcopter Logo](/images/QuadcopterImage.png =200x)
-
 # Quadcopter with PID controllers
+
+![Quadcopter Logo](/images/QuadcopterImage.png =200x)
 
 > Quadcopter dynamics simulation with two proportional–integral–derivative (PID) controllers that adjust the motor speeds of the quadcopter and enable control of position and orientation.
 
-![Sample Output](/images/Sample_output_graph.png)
+![Sample Output](/images/sample_output_graph.png)
 
 # Setup and Run
 
