@@ -1,12 +1,10 @@
 # Quadcopter with PID controllers
 
-![Quadcopter Logo](/images/QuadcopterImage.png =200x)
-
 > Quadcopter dynamics simulation with two proportional–integral–derivative (PID) controllers that adjust the motor speeds of the quadcopter and enable control of position and orientation.
 
 ![Sample Output](/images/sample_output_graph.png)
 
-# Setup and Run
+## Setup and Run
 
 The simulation is setup from within the main program ([Quadcopter_main.py](Quadcopter_main.py)). The simulation parameters are set in lines 45-59. The simulation start and end time as well as the time step are set in lines 46-48. These times are in seconds.
 
@@ -32,7 +30,7 @@ The first graph in the top line of the output graphics of the simulation show it
 
 The first graph of the bottom line of the output graphics show the thrust of each of the four quadcopter motors in Newtons over time. Next, the second graph shows the body torques in Newton-meters over time about each of the body's x, y, and z axis, and the third graph shows the resulting Euler angles over time in degrees. Finally, the last graph shows the angular velocity over time in degrees per second.
 
-# Files
+## Files
 
 The simulation is setup, run, and controlled from Quadcopter_main. This main file calls two other class files: a quadcopter class and a PID controller class.
 
@@ -40,7 +38,7 @@ The simulation is setup, run, and controlled from Quadcopter_main. This main fil
 2. [Quadcopter.py](Quadcopter.py) - Quadcopter class
 3. [PID_Controller.py](PID_Controller.py) - PID Controller class
 
-# Python Libraries
+## Python Libraries
 
 This simulation was built using the following python libraries and versions:
 
@@ -48,7 +46,7 @@ This simulation was built using the following python libraries and versions:
 * numpy v1.18.1
 * matplotlib v3.1.3
 
-# References
+## References
 
 1. Johnson, Nicholas Andrew; Control of a Folding Quadcopter with A Slung
     Load Using Input Shaping, Master's Thesis, Georgia Institute of
@@ -60,7 +58,7 @@ This simulation was built using the following python libraries and versions:
 4. CH Robotics; Understanding Euler Angles;
     [http://www.chrobotics.com/library/understanding-euler-angles](http://www.chrobotics.com/library/understanding-euler-angles)
 
-# License
+## License
 
 * [GNU General Public License](https://www.gnu.org/licenses/)
 * Copyright (C) 2020  Brian M. Wade

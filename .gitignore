@@ -10,3 +10,6 @@ launch.json
 # pycash
 __pycashe__/*
 *.pyc
+
+# itself
+.gitignore
