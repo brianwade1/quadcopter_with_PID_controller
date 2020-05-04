@@ -27,7 +27,7 @@ References:
 2. Gibiansky, Andrew; Quadcopter Dynamics and Simulation;
     http://andrew.gibiansky.com/blog/physics/quadcopter-dynamics/
 3. Luukkonen, Teppo; Modelling and Control of a Quadcopter. Independent
-    research project in applied mathamatics. Aalto University.
+    research project in applied mathematics. Aalto University.
 4. CH Robotics; Understanding Euler Angles;
     http://www.chrobotics.com/library/understanding-euler-angles
 '''
@@ -60,7 +60,7 @@ ang = np.array([0., 0., 0.]) #initial Euler angles [phi, theta, psi] relative to
 
 
 # Add initial random roll, pitch, and yaw rates
-deviation = 10
+deviation = 10 # magnitude of initial perturbation in deg/s
 random_set = np.array([random.random(), random.random(), random.random()])
 ang_vel = np.deg2rad(2* deviation * random_set - deviation) #initial angular velocity [phi_dot, theta_dot, psi_dot]
 #ang_vel = np.array([0.0, 0.0, 0.0]) #initial angular velocity [phi_dot, theta_dot, psi_dot]
