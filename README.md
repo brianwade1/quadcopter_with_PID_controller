@@ -57,8 +57,3 @@ This simulation was built using the following python libraries and versions:
     research project in applied mathematics. Aalto University.
 4. CH Robotics; Understanding Euler Angles;
     [http://www.chrobotics.com/library/understanding-euler-angles](http://www.chrobotics.com/library/understanding-euler-angles)
-
-## License
-
-* [GNU General Public License](https://www.gnu.org/licenses/)
-* Copyright (C) 2020  Brian M. Wade
